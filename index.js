@@ -206,7 +206,8 @@ export default class SwitchSelector extends Component {
                 flexDirection: "row",
                 borderColor: borderColor,
                 borderRadius: borderRadius,
-                borderWidth: hasPadding ? 1 : 0
+                borderWidth: hasPadding ? 1 : 0,
+                 alignItems: "center"
               }}
             >
               {!!this.state.sliderWidth && (
